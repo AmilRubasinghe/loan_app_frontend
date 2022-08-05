@@ -52,7 +52,7 @@
           <p class="text-right">
             Don't have an account yet?
             <span class="text-right font-weight-black h6">
-              <v-btn text @click="isAdd = true">Sign Up</v-btn>
+              <v-btn text @click="isAdd = true" dark>Sign Up</v-btn>
             </span>
           </p>
         </v-form>
