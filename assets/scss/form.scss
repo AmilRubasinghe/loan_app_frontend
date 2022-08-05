@@ -1,0 +1,98 @@
+.submit-btn {
+    margin-top: 10px !important;
+    margin-bottom: auto !important;
+    background: #30ac7c !important;
+
+    box-shadow: 0px 8px 15px #e7eaf0 !important;
+    border-radius: 10px !important;
+    opacity: 1 !important;
+    width: 170px !important;
+    height: 45px !important;
+    color: white !important;
+  }
+  .submit-btn-ps{
+    
+    margin-top: 10px !important;
+    margin-bottom: auto !important;
+    background: #30ac7c !important;
+
+    box-shadow: 0px 8px 15px #e7eaf0 !important;
+    border-radius: 10px !important;
+    opacity: 1 !important;
+    width: 330px !important;
+    height: 50px !important;
+  }
+  .submit-btn-otp {
+    margin-top: 10px !important;
+    margin-bottom: auto !important;
+    background: #028F17 !important;
+
+    box-shadow: 0px 8px 15px #e7eaf0 !important;
+    border-radius: 21px !important;
+    opacity: 1 !important;
+    width: 170px !important;
+    height: 45px !important;
+    color: white !important;
+  }
+  .reset-btn {
+    margin-top: 10px !important;
+    margin-bottom: auto !important;
+    background: #000000 !important;
+
+    box-shadow: 0px 8px 15px #e7eaf0 !important;
+    border-radius: 11px !important;
+    opacity: 1 !important;
+    width: 170px !important;
+    height: 45px !important;
+    color: white !important;
+  }
+  .close-btn {
+    color: #ffffff !important;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 7px !important;
+    height: 7px !important;
+  }
+  .form-row-header {
+    background-color: #30ac7c !important;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .form-row-header-otp {
+    background-color: #FFFFFF !important;
+  }
+  .name-header-otp {
+    margin-top: 5px;
+    font-size: 19px;
+    padding-left: 8px;
+    color: black !important;
+  }
+  .name-sub-header-otp {
+    margin-top: 5px;
+    padding-left: 8px;
+    color: grey !important;
+  }
+  .close-btn-otp {
+    color: red !important;
+    width: 7px !important;
+    height: 7px !important;
+  }
+  .resend-otp{
+   cursor: pointer;
+  }
+  .name-header {
+    margin-top: 5px;
+    padding-left: 8px;
+    color: white !important;
+  }
+  .centered-input.v-text-field .v-label {
+    left: 50% !important;
+    transform: translateX(-50%);
+    transform-origin: top 50%;
+    &.v-label--active {
+      transform: translateY(-18px) scale(.75) translateX(-50%);
+    }
+  }
+  a.v-breadcrumbs__item {
+    color: currentColor;
+}
