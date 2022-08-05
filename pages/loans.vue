@@ -76,13 +76,21 @@
           </v-file-input>
         </v-col>
       </v-row>
+      <v-row v-if="data.file">
+        <v-col cols="auto" class="ml-4">
+              <v-icon>mdi-download-multiple</v-icon>
+            </v-col>
+           <v-col> <a :href="getUrl(data.file)">Download the added file</a></v-col>
+            
+         
+      </v-row>
       <v-row>
         <v-col>
           <v-flex class="d-flex justify-end">
             <v-btn elevation="0" color="#30ac7c" dark @click="addLoan()">
               <v-icon>mdi-plus-thick</v-icon>Add
             </v-btn>
-
+           
             <!-- <v-btn
                   v-if="isUpdate"
                   elevation="0"
@@ -194,7 +202,7 @@ export default {
       this.data = Object.assign({}, res.data[0]);
        this.name = userData.name;
       this.data.userId = userData.id;
-      this.file = this.getUrl(this.data.file);
+      this.file = null;
         console.log(this.data);
       } else {
         this.data = {};
